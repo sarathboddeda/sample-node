@@ -9,3 +9,6 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/sarath-gke/dockerfiles/sample-app:latest'
+  
+options:
+  logging: CLOUD_LOGGING_ONLY
